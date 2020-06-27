@@ -2,6 +2,6 @@ import React, { Component } from "react";
 
 export default class TodoItem extends Component {
   render() {
-    return <div>helo from todoitem;</div>;
+    return <h1>helo from todoitem;</h1>;
   }
 }
