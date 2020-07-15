@@ -42,13 +42,13 @@ export default class App extends Component {
     });
   };
   handleDelete = (id) => {
-    const filteredItems = this.state.items.filter((item) => item.id != id);
+    const filteredItems = this.state.items.filter((item) => item.id !== id);
     this.setState({
       items: filteredItems,
     });
   };
   handleEdit = (id) => {
-    const filteredItems = this.state.items.filter((item) => item.id != id);
+    const filteredItems = this.state.items.filter((item) => item.id !== id);
     const selectedItem = this.state.items.find((item) => item.id === id);
     this.setState({
       items: filteredItems,

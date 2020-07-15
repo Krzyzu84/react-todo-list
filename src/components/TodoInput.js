@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Item from "./TodoItem";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 
